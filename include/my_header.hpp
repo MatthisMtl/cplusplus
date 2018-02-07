@@ -3,17 +3,16 @@
 
 #ifndef MY_HEADER_HPP
 #define MY_HEADER_HPP
-double exo1(double rayon)
+void exo1(void)
 {
-	double aire;
-	aire = 3.14*rayon*rayon;
-	return aire;
+	long a = 2, b = 1, c = 0;
+	while (a + b > 0)
+	{
+		a = a - 2;
+		b = b + 1;
+		c = c + 1;
+	}
 }
 
-void exo2(short a, short b)
-{
-	short y;
-	y = a < b && !a;
-}
 #endif // MY_HEADER_HPP
 
