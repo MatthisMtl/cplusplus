@@ -8,7 +8,7 @@ int main()
 {
     // Affichage sur un terminal
     std::cout << "Hello World!" << std::endl;
- 	exo2();
+ 	exo3();
 	
 	return 0;
 
